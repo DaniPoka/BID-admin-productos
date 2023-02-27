@@ -32,6 +32,8 @@ const ItemDetails = () => {
                 <p>{item.price} u$d</p>
             </div>
 
+            <Link to={`/item/${item._id}/edit`} >Edit</Link>
+
 
 
 
